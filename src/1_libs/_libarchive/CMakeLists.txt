@@ -1,0 +1,30 @@
+# Compressor
+# add_subdirectory(de-deflate-1.23)
+add_subdirectory(de-deflate-1.25) # no AVX512 error
+
+# add_subdirectory(de-zlib-1.2.8)
+add_subdirectory(de-zlib-1.3.1) # opencv
+
+add_subdirectory(de-bzip2-1.0.5)
+add_subdirectory(de-bzip3-1.5.4) # New 2026.10.05 for 8-ZipFM.exe
+
+# add_subdirectory(de-lzma-4.32.7)
+add_subdirectory(de-minizip-1.15)
+add_subdirectory(de-unzip-1.01e)
+
+# add_subdirectory(de-tar-1.2.20)
+# add_subdirectory(de-lzo2-mini-2.10)
+# add_subdirectory(de-lzo2-2.10)
+# add_subdirectory(de-lz4-1.10.0)
+# add_subdirectory(de-b2-0.98.1)
+# add_subdirectory(de-cpio-1.0.0)
+
+add_subdirectory(de-zstd-1.5.7)
+# add_subdirectory(de-xz-5.8.1-static)
+# add_subdirectory(de-mbedtls-4.2.0)
+# add_subdirectory(de-mbedtls-3.6.4-static)
+# add_subdirectory(de-pcre2-10.46)
+
+# add_subdirectory(de-xml2-2.9.10)
+
+# add_subdirectory(de-archive-3.8.1)

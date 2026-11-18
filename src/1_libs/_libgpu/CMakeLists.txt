@@ -1,0 +1,49 @@
+# # Compute
+# # add_subdirectory(de_DirectML)
+# # add_subdirectory(de_opencl_1.2)
+# # add_subdirectory(de_opencl_loader_shared)
+# add_subdirectory(de_opencl_loader_shared_2024.10.24-1)
+# add_subdirectory(de_opencl_CLBlast_shared)
+# # Graphics
+# # add_subdirectory(de_vulkan_1.1)
+# # add_subdirectory(de_vulkan_1.3)
+# # add_subdirectory(de_vulkan_1.4.345)
+# # add_subdirectory(de_vulkan_loader_1.4.345)
+# add_subdirectory(de_vulkan_loader_shared_1.4.335.0-1)
+# # add_subdirectory(de_vulkan_hpp_1.4.344)
+# # add_subdirectory(de_vulkan_loader_1.4.341-shared)
+
+# Graphics
+add_subdirectory(de-glew-2.1.0)
+# add_subdirectory(de-glad-4.2)
+# add_subdirectory(de-glad-4.3-compat)
+# add_subdirectory(de-glad-4.3-core)
+# add_subdirectory(de-glad-4.5-compat)
+# add_subdirectory(de-glad-4.5-core)
+# add_subdirectory(de-glad-4.6-compat)
+# add_subdirectory(de-glad-4.6-core)
+
+# add_subdirectory(de-soil)
+# # add_subdirectory(de-nanovg)
+# add_subdirectory(de-nanovg-tint)
+# add_subdirectory(de-oui-blendish)
+
+# # add_subdirectory(de-glfw-3.3.2-glew)
+# # add_subdirectory(de-glfw-3.3.2-glad)
+# add_subdirectory(de-glfw-3.4)
+
+# # add_subdirectory(de-freeglut-3.6.0-static)
+
+# # add_subdirectory(de-imgui)
+# # add_subdirectory(de-implot-0.17)
+
+# # add_subdirectory(de-gles3) # AudioSynth-qt
+# # add_subdirectory(de-glfw-3.3.2-gles3)
+
+# add_subdirectory(de-earcut)
+# add_subdirectory(de-tinyobjloader-2.0.0)
+
+# if (BENNI_USE_IRR)
+    # add_subdirectory(de-irrlicht-1.8.5)
+    # add_subdirectory(de-irrExt-1.8.5)
+# endif()
